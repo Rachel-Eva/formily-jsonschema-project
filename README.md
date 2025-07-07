@@ -1,4 +1,4 @@
-# Formily JSONSchema Project 🧡
+# Formily JSONSchema Project 
 
 A professionally styled dynamic form built with **Formily**, based on a JSON Schema configuration. This project showcases clean UI/UX design inspired by modern web form principles — with a focus on accessibility, customization, and usability.
 
