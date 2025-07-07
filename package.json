@@ -1,0 +1,29 @@
+{
+  "name": "formily-jsonschema-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@formily/antd": "^2.3.7",
+    "@formily/core": "^2.3.7",
+    "@formily/react": "^2.3.7",
+    "antd": "^4.24.16",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "less": "^4.3.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0"
+  }
+}

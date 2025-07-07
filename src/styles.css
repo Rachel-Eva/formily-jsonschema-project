@@ -1,0 +1,182 @@
+/* styles.css */
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #ff6a00;
+}
+
+.form-description {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 24px;
+}
+
+/* Form Labels */
+.ant-form-item-label > label {
+  font-weight: 600;
+  color: #ff6b00; /* bright orange */
+}
+
+/* Submit Button */
+.ant-btn-primary {
+  background-color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.ant-btn-primary:hover {
+  background-color: #e65c00;
+  border-color: #e65c00;
+}
+
+/* Card */
+.ant-card {
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.ant-card-head {
+  font-size: 16px;
+  font-weight: 600;
+  background: #fff4ec; /* subtle orange-tinted background */
+  border-bottom: 1px solid #ffe5d0;
+  color: #ff6b00;
+}
+
+.orange-background {
+  background-color: #cc4400; /* dark rich orange */
+  padding: 48px 24px;
+  min-height: 100vh;
+}
+
+/* Optional: To increase contrast */
+.form-container {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.form-title {
+  color: #ff6a00;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.form-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+/* Inputs and Selects */
+.ant-input,
+.ant-select-selector,
+.ant-picker,
+.ant-checkbox-wrapper {
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.ant-input:focus,
+.ant-input-focused,
+.ant-select-focused .ant-select-selector,
+.ant-picker-focused,
+.ant-checkbox-wrapper-checked {
+  border-color: #ff6b00 !important;
+  box-shadow: 0 0 0 2px rgba(255, 107, 0, 0.2);
+}
+
+/* For hover effect too (optional) */
+.ant-input:hover,
+.ant-select-selector:hover,
+.ant-picker:hover {
+  border-color: #ffa74f;
+}
+
+/* Orange focus outline */
+input:focus, 
+textarea:focus, 
+.ant-input:focus, 
+.ant-input-focused, 
+.ant-select-focused .ant-select-selector {
+  border-color: #ff6a00 !important;
+  box-shadow: 0 0 0 2px rgba(255, 106, 0, 0.2) !important;
+  outline: none !important;
+}
+
+/* Remove native blue outline for buttons/inputs (just in case) */
+button:focus, 
+input:focus-visible {
+  outline: none !important;
+}
+
+/* Optional: smooth transition */
+.ant-input,
+.ant-select-selector,
+.ant-picker,
+textarea,
+input,
+select {
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Space between form items */
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+.submit-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.custom-submit-btn {
+  background-color: #ffffff;
+  color: #cc4400;
+  border: 2px solid #cc4400;
+  font-size: 18px;
+  padding: 10px 32px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  line-height: 1.2;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-submit-btn:hover {
+  background-color: #cc4400;
+  color: #ffffff;
+  cursor: pointer;
+}
+.custom-submit-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(204, 68, 0, 0.2);
+}
+
